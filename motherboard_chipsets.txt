@@ -1,0 +1,212 @@
+AMD and Intel Motherboard Chipsets Overview
+Generated on: July 14, 2025
+Description: This file provides a detailed summary of AMD and Intel motherboard chipsets for their respective platforms, including features, target audience, and use cases.
+
+---
+
+### 1. AMD Chipsets
+
+#### 1.1 Socket AM5 Chipsets (Ryzen 7000, 8000, 9000 Series CPUs)
+Socket AM5 supports Ryzen 7000, 8000, and 9000 Series processors (Zen 4 and Zen 5). Uses DDR5 memory and PCIe 5.0 on select chipsets. Compatible with all listed CPUs, but BIOS updates may be required for newer CPUs on older boards.
+
+- **X870E (High-End, Enthusiast)**
+  - Features: PCIe 5.0 (16 GPU lanes, 4 NVMe lanes), USB 4.0 (mandatory), 12 PCIe 4.0 lanes, 8 PCIe 3.0 lanes, up to 2x USB 3.2 Gen 2x2 (20 Gbps), 12x USB 3.2 Gen 2 (10 Gbps), dual-channel DDR5 with AMD EXPO, dual Promontory 21 chiplets, robust VRMs for overclocking.
+  - Target Audience: Enthusiasts, gamers, professionals needing max performance.
+  - Use Case: Extreme gaming, content creation, multi-GPU setups (e.g., Ryzen 9 9950X).
+  - Price Range: $300–$700 (e.g., ASUS ROG Crosshair X870E Hero ~$700).
+
+- **X870 (High-End)**
+  - Features: PCIe 5.0 (GPU and NVMe), USB 4.0, DDR5 with EXPO, overclocking support, fewer PCIe lanes than X870E, robust connectivity.
+  - Target Audience: High-end gamers and creators seeking advanced features at lower cost.
+  - Use Case: High-performance gaming or productivity builds.
+
+- **B850 (Mid-Range)**
+  - Features: PCIe 5.0 (NVMe, optional for GPU), overclocking support, DDR5 with EXPO, 8 PCIe 4.0 lanes, 4 PCIe 3.0 lanes, up to 10 Gbps USB, single Promontory 21 chip.
+  - Target Audience: Gamers and creators balancing performance and cost.
+  - Use Case: Mid-tier gaming PCs (e.g., Ryzen 7 9700X).[](https://www.tomshardware.com/best-picks/best-motherboards)
+
+- **B840 (Entry-Level)**
+  - Features: No CPU overclocking, PCIe 3.0 (GPU and NVMe), DDR5 with optional EXPO, 4 SATA, 2 USB 3.1, 6 USB 2.0, Promontory 19 chip.
+  - Target Audience: Budget builders, compact systems.
+  - Use Case: Basic PCs with Ryzen 8000G APUs.
+
+- **B650E (Mid-Range, Enthusiast)**
+  - Features: PCIe 5.0 (GPU and one M.2 slot), overclocking, DDR5 with EXPO, enhanced connectivity (e.g., Wi-Fi 6/6E), robust VRMs.
+  - Target Audience: Gamers and creators wanting PCIe 5.0 without X-series cost.
+  - Use Case: High-performance gaming or compact builds.[](https://www.tomshardware.com/best-picks/best-motherboards)
+
+- **B650 (Mid-Range)**
+  - Features: PCIe 4.0 (GPU), PCIe 5.0 (NVMe), overclocking, DDR5, decent I/O (e.g., 2.5GbE LAN).
+  - Target Audience: Mainstream gamers on a budget.
+  - Use Case: Cost-effective gaming PCs (e.g., Ryzen 5 7600).
+
+- **A620/A620A (Budget)**
+  - Features: No CPU overclocking, PCIe 4.0 (GPU and NVMe), DDR5 with optional EXPO, basic I/O, A620A for OEMs.
+  - Target Audience: Budget or office PC builders.
+  - Use Case: Entry-level systems (e.g., Ryzen 5 7600).
+
+#### 1.2 Socket AM4 Chipsets (Ryzen 1000, 2000, 3000, 4000, 5000 Series, Athlon, 7th Gen A-Series)
+AM4 supports Ryzen 1000–5000 Series and select APUs. Uses DDR4 memory and PCIe 4.0 on higher-end chipsets. BIOS updates may be needed for newer CPUs.
+
+- **X570 (High-End)**
+  - Features: PCIe 4.0 (GPU and NVMe), dual GPU support, overclocking, USB 3.2 Gen 2, 14nm Matisse/Vermeer IO die.
+  - Target Audience: Enthusiasts and gamers with Ryzen 5000/3000 CPUs.
+  - Use Case: High-end AM4 builds for gaming or multi-GPU.[](https://www.tomshardware.com/best-picks/best-motherboards)
+
+- **B550 (Mid-Range)**
+  - Features: PCIe 4.0 (GPU and NVMe), overclocking, USB 3.2 Gen 2, Wi-Fi 6 on some boards, good VRMs.
+  - Target Audience: Gamers and power users on a budget.
+  - Use Case: Mid-tier gaming PCs (e.g., Ryzen 5 5600X).[](https://www.tomshardware.com/best-picks/best-motherboards)
+
+- **B450 (Mid-Range, Budget)**
+  - Features: Limited PCIe 4.0, overclocking, DDR4, basic connectivity, BIOS updates needed for Ryzen 5000.
+  - Target Audience: Budget gamers or mainstream users.
+  - Use Case: Affordable builds (e.g., Ryzen 3 5300G).
+
+- **A520 (Entry-Level)**
+  - Features: No CPU overclocking, PCIe 3.0, DDR4, basic I/O (e.g., 2.5GbE LAN).
+  - Target Audience: Budget or office PC builders.
+  - Use Case: Basic systems with Ryzen 3 or Athlon APUs.[](https://www.pcmag.com/news/how-to-choose-the-right-desktop-pc-chipset-in-2021)
+
+- **X300/A300/PRO 500 (Chipset-Less, OEM)**
+  - Features: Relies on CPU I/O, PCIe 3.0, minimal connectivity, not for retail.
+  - Target Audience: OEMs for small form factor systems.
+  - Use Case: Mini-ITX or SFF PCs.
+
+#### 1.3 Socket sTR5 Chipsets (Ryzen Threadripper and Threadripper PRO 7000 Series)
+sTR5 supports Threadripper 7000 and Threadripper PRO CPUs for HEDT and workstation use. Features high core counts, ECC RAM, and extensive PCIe lanes.
+
+- **WRX90 (Workstation, Flagship)**
+  - Features: Up to 128 PCIe 5.0 lanes, 8-channel DDR5, PCIe 5.0 (GPU and NVMe), PRO management features, no native HD Audio.
+  - Target Audience: Professionals, engineers, workstation users.
+  - Use Case: High-end workstations for rendering, AI, or scientific computing.[](https://www.amd.com/en/products/processors/chipsets.html)
+
+- **TRX50 (HEDT)**
+  - Features: Up to 88 PCIe 5.0 lanes, 8-channel DDR5, PCIe 5.0, overclocking, PRO features disabled.
+  - Target Audience: Enthusiasts and semi-professionals.
+  - Use Case: High-performance desktops for content creation or gaming.
+
+#### 1.4 Legacy AMD Chipsets (Pre-AM4 Platforms)
+For older AMD processors (FX-Series, A-Series APUs).
+
+- **FM2+ (A-Series APUs)**
+  - Features: Supports A-Series APUs, DDR3, PCIe 3.0, basic chipsets (e.g., A88X, A78).
+  - Use Case: Obsolete, used in legacy systems only.[](https://www.amd.com/en/products/processors/chipsets.html)
+
+- **AM3+ (FX-Series)**
+  - Features: Supports FX processors, DDR3, PCIe 2.0, chipsets like 990FX, 970.
+  - Use Case: Obsolete, legacy systems only.
+
+---
+
+### 2. Intel Chipsets
+
+#### 2.1 Socket LGA 1851 Chipsets (Core Ultra 200 Series CPUs, Arrow Lake)
+LGA 1851 supports Intel Core Ultra 200 Series CPUs (Arrow Lake architecture, 2nd Gen Core Ultra). Uses DDR5 memory and PCIe 5.0. Introduced in 2024, these chipsets are designed for modern builds with AI-ready features.[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **Z890 (High-End, Enthusiast)**
+  - Features: PCIe 5.0 (16 GPU lanes, 4 NVMe lanes), overclocking support, DDR5 up to 8000+ MHz (OC), up to 28 PCIe 4.0 lanes, USB 3.2 Gen 2x2 (20 Gbps), Wi-Fi 7, Thunderbolt 4, robust VRMs, multiple M.2 slots.
+  - Target Audience: Enthusiasts, gamers, and creators needing top performance.
+  - Use Case: High-end gaming, content creation, or multi-GPU setups (e.g., Core Ultra 9 295K).[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **B860 (Mid-Range)**
+  - Features: PCIe 5.0 (NVMe, optional for GPU), no CPU overclocking, DDR5, up to 12 PCIe 4.0 lanes, USB 3.2 Gen 2 (10 Gbps), Wi-Fi 6E/7, fewer M.2 slots than Z890.
+  - Target Audience: Gamers and mainstream users balancing cost and features.
+  - Use Case: Mid-tier gaming or productivity PCs (e.g., Core Ultra 7 265).[](https://www.scan.co.uk/buying-guides/motherboards/intel)[](https://www.asus.com/motherboards-components/motherboards/all-series/filter?Category=Intel)
+
+- **H810 (Entry-Level)**
+  - Features: No CPU overclocking, PCIe 4.0 (GPU and NVMe), DDR5, basic I/O (e.g., 4 SATA, USB 3.2 Gen 1), minimal PCIe lanes, optional Wi-Fi 6.
+  - Target Audience: Budget builders or office PC users.
+  - Use Case: Basic systems for everyday tasks (e.g., Core Ultra 5 245).[](https://www.scan.co.uk/buying-guides/motherboards/intel)[](https://www.asus.com/motherboards-components/motherboards/all-series/filter?Category=Intel)
+
+- **Q870 (Business/Enterprise)**
+  - Features: PCIe 5.0 (GPU and NVMe), DDR5, business features (e.g., vPro, ASUS Control Center Express), dual M.2 slots, USB 10 Gbps, no overclocking, enhanced security (e.g., TPM IC).
+  - Target Audience: Enterprise users, IT-managed systems.
+  - Use Case: Business desktops or small servers.[](https://www.asus.com/motherboards-components/motherboards/all-series/filter?Category=Intel)
+
+#### 2.2 Socket LGA 1700 Chipsets (12th, 13th, 14th Gen Core CPUs)
+LGA 1700 supports Intel 12th (Alder Lake), 13th (Raptor Lake), and 14th Gen (Raptor Lake Refresh) Core CPUs. Uses DDR4 or DDR5 and PCIe 5.0 on higher-end chipsets. BIOS updates may be required for newer CPUs.[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **Z790 (High-End, Enthusiast)**
+  - Features: PCIe 5.0 (GPU and NVMe), overclocking, DDR5 (up to 8000+ MHz OC) or DDR4, up to 28 PCIe 4.0 lanes, USB 3.2 Gen 2x2 (20 Gbps), Wi-Fi 6E/7, Thunderbolt 4, robust VRMs.
+  - Target Audience: Enthusiasts, gamers, and creators.
+  - Use Case: High-end gaming or content creation (e.g., Core i9-14900K).[](https://www.tomshardware.com/best-picks/best-motherboards)[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **Z690 (High-End, Older)**
+  - Features: Similar to Z790 but fewer PCIe 4.0 lanes, DDR5 or DDR4, overclocking, USB 3.2 Gen 2x2, Wi-Fi 6/6E, slightly less advanced I/O.
+  - Target Audience: Enthusiasts with 12th/13th Gen CPUs.
+  - Use Case: High-performance builds, slightly outdated vs. Z790.[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **H770 (Mid-Range, Home)**
+  - Features: PCIe 5.0 (NVMe, optional for GPU), no CPU overclocking, DDR5 or DDR4, up to 16 PCIe 4.0 lanes, USB 3.2 Gen 2, Wi-Fi 6, fewer M.2 slots.
+  - Target Audience: Mainstream users for home PCs.
+  - Use Case: Mid-tier gaming or home systems (e.g., Core i7-14700).[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **B760 (Mid-Range, Office/Gaming)**
+  - Features: PCIe 5.0 (NVMe, optional for GPU), no CPU overclocking, DDR5 or DDR4, up to 12 PCIe 4.0 lanes, USB 3.2 Gen 2, Wi-Fi 6, cost-effective.
+  - Target Audience: Budget gamers or office PC users.
+  - Use Case: Affordable gaming or productivity PCs (e.g., Core i5-14600).[](https://www.tomshardware.com/best-picks/best-motherboards)[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+- **H610 (Entry-Level)**
+  - Features: No CPU overclocking, PCIe 4.0 (GPU and NVMe), DDR4 or DDR5, minimal PCIe lanes (e.g., 8), basic I/O, no Wi-Fi on most boards.
+  - Target Audience: Budget or office PC builders.
+  - Use Case: Basic systems for everyday tasks (e.g., Core i3-14100).[](https://www.tomshardware.com/best-picks/best-motherboards)[](https://www.scan.co.uk/buying-guides/motherboards/intel)
+
+#### 2.3 Socket LGA 2066 Chipsets (Core X-Series, Xeon W)
+LGA 2066 supports Intel Core X-Series and Xeon W processors for high-end desktop (HEDT) and workstation use. Uses DDR4 and PCIe 3.0, with more PCIe lanes than mainstream chipsets.
+
+- **X299 (HEDT)**
+  - Features: Up to 44 PCIe 3.0 lanes, quad-channel DDR4, overclocking (Core X-Series), multiple M.2 slots, USB 3.2 Gen 2, robust VRMs, no PCIe 4.0/5.0.
+  - Target Audience: Enthusiasts, professionals, and workstation users.
+  - Use Case: High-end desktops or workstations (e.g., Core i9-10980XE, Xeon W-3175X).[](https://www.scan.co.uk/buying-guides/motherboards/intel)[](https://www.kingston.com/en/blog/pc-performance/intel-processor-chipset-names-explained)
+
+#### 2.4 Legacy Intel Chipsets
+For older Intel processors (pre-LGA 1700).
+
+- **Z590, H570, B560 (LGA 1200, 10th/11th Gen Core)**
+  - Features: PCIe 4.0 (Z590), overclocking (Z590 only), DDR4, USB 3.2 Gen 2, Wi-Fi 6. Z590 for enthusiasts, H570/B560 for mainstream/budget.
+  - Use Case: Obsolete, used in legacy 10th/11th Gen builds.[](https://www.intel.com/content/www/us/en/support/articles/000099260/processors/intel-core-processors.html)
+
+- **Z490, H470, B460 (LGA 1200, 10th/11th Gen Core)**
+  - Features: PCIe 3.0 (upgradable to 4.0 on Z490 with 11th Gen), overclocking (Z490), DDR4, USB 3.2 Gen 2.
+  - Use Case: Obsolete, older 10th Gen systems.[](https://www.buildcomputers.net/intel-cpu-socket.html)
+
+- **X99 (LGA 2011-3, Haswell-E, Broadwell-E)**
+  - Features: PCIe 3.0, quad-channel DDR4, overclocking, up to 40 PCIe lanes.
+  - Use Case: Obsolete, legacy HEDT systems.[](https://www.buildcomputers.net/intel-cpu-socket.html)
+
+- **Older Chipsets (e.g., Z87, Z77, X79, H61)**
+  - Features: Support for Haswell, Ivy Bridge, Sandy Bridge (LGA 1155, 1150, 2011), DDR3, PCIe 3.0/2.0.
+  - Use Case: Obsolete, legacy systems only.[](https://www.buildcomputers.net/intel-cpu-socket.html)
+
+---
+
+### Key Considerations
+- **Socket Compatibility**: Match motherboard socket to CPU:
+  - AMD: AM5 (Ryzen 7000+), AM4 (Ryzen 1000–5000), sTR5 (Threadripper).
+  - Intel: LGA 1851 (Core Ultra 200), LGA 1700 (12th–14th Gen), LGA 2066 (Core X/Xeon W).
+- **Chipset Tiers**:
+  - **Z-Series (Intel Z890, Z790), X-Series (AMD X870E, Intel X299)**: Enthusiast, max PCIe lanes, overclocking.
+  - **B-Series (AMD B850, Intel B860)**: Mid-range, cost-effective, limited/no overclocking.
+  - **H-Series (Intel H810, H770), A-Series (AMD A620)**: Budget, no CPU overclocking, basic features.
+  - **Q-Series (Intel Q870)**: Business/enterprise with management features.
+- **Form Factor**: ATX (full-size), Micro-ATX, Mini-ITX (compact, fewer slots).
+- **Future-Proofing**: AM5/LGA 1851 support PCIe 5.0, USB 4.0; AM4/LGA 1700 limited to DDR4 (optional DDR5), PCIe 4.0/5.0.
+- **BIOS Updates**: Required for newer CPUs on older boards (check manufacturer CPU support lists).
+- **Overclocking**: Avoid Intel H/Q-series, AMD A-series, or B840 for overclocking; prefer Z/X/B-series.
+
+### Recommendations
+- **High-End Gaming/Content Creation**:
+  - AMD: X870E/X670E (AM5) for Ryzen 9 9950X, WRX90/TRX50 (sTR5) for Threadripper.
+  - Intel: Z890 (LGA 1851) for Core Ultra 9 295K, Z790 (LGA 1700) for Core i9-14900K, X299 for Core i9-10980XE.
+- **Mid-Range Gaming**:
+  - AMD: B850/B650E (AM5) for Ryzen 7 9700X, B550 (AM4) for Ryzen 5 5600X.
+  - Intel: B860 (LGA 1851) for Core Ultra 7 265, B760 (LGA 1700) for Core i5-14600.
+- **Budget Builds**:
+  - AMD: A620 (AM5) or A520 (AM4) for Ryzen 5 7600 or Ryzen 3.
+  - Intel: H810 (LGA 1851) for Core Ultra 5 245, H610 (LGA 1700) for Core i3-14100.
+- **Workstations**:
+  - AMD: WRX90 for Threadripper PRO with ECC RAM, multi-GPU support.
+  - Intel: X299 for Xeon W or Core X-Series, Q870 for business desktops.
+
+For specific CPU or use case recommendations, consult manufacturer CPU support lists (e.g., ASUS, MSI, GIGABYTE) or contact for tailored advice.

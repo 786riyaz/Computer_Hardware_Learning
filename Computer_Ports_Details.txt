@@ -1,0 +1,96 @@
+# Computer Ports and Their Details
+
+## Data Ports (Sorted by Maximum Theoretical Data Transfer Speed, Descending)
+
+1. Thunderbolt 4
+   - Speed: 40 Gbps (5 GB/s)
+   - Description: Supports data, video, and power over USB-C. Backward compatible with Thunderbolt 3 and USB.
+   - Use: High-speed peripherals, external storage, displays.
+
+2. USB4 (Version 2.0)
+   - Speed: 40 Gbps (5 GB/s), up to 80 Gbps (10 GB/s) in specific configurations
+   - Description: Built on Thunderbolt 3/4 architecture, uses USB-C, supports data, power, and video.
+   - Use: External drives, docking stations, displays.
+
+3. NVMe (PCIe 5.0 x4)
+   - Speed: ~32 Gbps (~4 GB/s) for PCIe 5.0 x4; ~16 Gbps (~2 GB/s) for PCIe 4.0 x4
+   - Description: Protocol for SSDs, typically over PCIe lanes (often via M.2 slots). Speed depends on PCIe version and lanes.
+   - Use: Internal high-speed storage (SSDs).
+
+4. M.2 (PCIe 5.0 x4)
+   - Speed: ~32 Gbps (~4 GB/s) for PCIe 5.0 x4; ~16 Gbps (~2 GB/s) for PCIe 4.0 x4
+   - Description: Physical slot supporting NVMe (PCIe) or SATA protocols. Speed depends on protocol and PCIe version.
+   - Use: SSDs, Wi-Fi cards, expansion cards.
+
+5. USB 3.2 Gen 2x2 (SuperSpeed USB 20Gbps)
+   - Speed: 20 Gbps (2.5 GB/s)
+   - Description: Uses USB-C, high-speed data transfer for external devices.
+   - Use: External SSDs, high-performance peripherals.
+
+6. USB 3.2 Gen 2 (SuperSpeed USB 10Gbps)
+   - Speed: 10 Gbps (1.25 GB/s)
+   - Description: Available on USB-C or USB-A, widely used for fast external devices.
+   - Use: External drives, peripherals.
+
+7. SATA III
+   - Speed: 6 Gbps (750 MB/s)
+   - Description: Standard for internal HDDs and SSDs. Practical speed ~600 MB/s due to overhead.
+   - Use: Internal storage (HDDs, SSDs).
+
+8. USB 3.2 Gen 1 (SuperSpeed USB 5Gbps)
+   - Speed: 5 Gbps (625 MB/s)
+   - Description: First USB 3.0 generation, uses USB-A or USB-C.
+   - Use: External drives, peripherals.
+
+9. Ethernet (10GbE)
+   - Speed: 10 Gbps (1.25 GB/s)
+   - Description: High-speed networking port for LAN.
+   - Use: Network connectivity, NAS.
+
+10. Ethernet (1GbE)
+    - Speed: 1 Gbps (125 MB/s)
+    - Description: Standard Gigabit Ethernet, common in most computers.
+    - Use: Network connectivity.
+
+11. USB 2.0
+    - Speed: 480 Mbps (60 MB/s)
+    - Description: Older USB standard for low-bandwidth devices.
+    - Use: Keyboards, mice, older peripherals.
+
+## Video Ports and Supported Resolutions
+
+1. VGA (Video Graphics Array)
+   - Maximum Resolution: 1920x1200 @ 60Hz (WUXGA)
+   - Details: Analog signal, practical max often 1920x1080 or 1600x1200 @ 60Hz. Higher resolutions (e.g., 2048x1536 @ 60Hz) possible with high-quality cables but rare.
+   - Use Case: Legacy monitors, projectors.
+
+2. HDMI (High-Definition Multimedia Interface)
+   - HDMI 1.4:
+     - Maximum Resolution: 4K (4096x2160) @ 30Hz or 1080p @ 120Hz
+     - Details: 10.2 Gbps bandwidth, supports 3D.
+   - HDMI 2.0:
+     - Maximum Resolution: 4K (4096x2160) @ 60Hz
+     - Details: 18 Gbps bandwidth, supports HDR.
+   - HDMI 2.1:
+     - Maximum Resolution: 8K (7680x4320) @ 60Hz or 4K @ 120Hz (with Dynamic HDR)
+     - Details: 48 Gbps bandwidth, supports VRR, ALLM, and 10K (10240x4320) @ lower rates with DSC.
+   - Use Case: TVs, monitors, gaming consoles, home theater.
+
+3. DisplayPort (DP)
+   - DisplayPort 1.2:
+     - Maximum Resolution: 4K (3840x2160) @ 60Hz or 2560x1600 @ 120Hz
+     - Details: 17.28 Gbps bandwidth, supports multi-monitor daisy-chaining.
+   - DisplayPort 1.4:
+     - Maximum Resolution: 8K (7680x4320) @ 30Hz or 4K @ 120Hz (with HDR)
+     - Details: 32.4 Gbps bandwidth, supports DSC for 8K @ 60Hz or 4K @ 240Hz.
+   - DisplayPort 2.0:
+     - Maximum Resolution: 16K (15360x8460) @ 60Hz with DSC, 8K @ 120Hz without DSC, or 4K @ 240Hz
+     - Details: 80 Gbps bandwidth, supports adaptive sync and HDR.
+   - Use Case: High-end monitors, multi-monitor setups, VR, professional displays.
+
+## Additional Notes
+- NVMe and M.2: NVMe is a protocol; M.2 is a slot. M.2 supports NVMe (PCIe) or SATA, with speeds varying by protocol and PCIe version.
+- Video Ports: HDMI and DisplayPort are digital, primarily for video/audio, with bandwidth listed for context. VGA is analog, with no defined data rate.
+- Practical Speeds: Theoretical maximums are rarely achieved due to protocol overhead, device limits, or cable quality.
+- Cables: High resolutions require specific cables (e.g., Ultra High Speed HDMI for HDMI 2.1, DP80 for DP 2.0).
+- Compression: DisplayPort’s DSC and HDMI 2.1’s FRL enable higher resolutions/refresh rates.

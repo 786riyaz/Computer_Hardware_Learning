@@ -1,0 +1,5 @@
+Intel Processor Details :::
+
+U :: Ultra Low Power
+H :: Desktop level performance
+HX : Desktop performance
