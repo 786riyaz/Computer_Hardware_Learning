@@ -1,0 +1,35 @@
+Windows Update 
+Mouse Without Border
+Net Speed Meter
+Browser
+    Edge
+    Chrome
+    Brave
+MS Office 
+    Excel
+    Word
+    Power Point
+    Outlook
+    OneDrive
+Text Editor
+    NotePad++
+    SubLime
+VS Code
+    GitLens
+    Postman
+    TabNine
+Postman
+GIT
+NodeJS
+Mongo DB
+Mongo DB Compass
+XAMPP
+
+Draw io
+7 zip
+win rar
+MS Store Update
+Whatsapp
+
+Redis
+SSH client
